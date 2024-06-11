@@ -1,0 +1,9 @@
+files:
+  - source: /
+    ignore:
+      - .gitignore
+      - package.json
+      - /.vitepress/
+      - README.md
+      - README_en.md
+    translation: /%locale_with_underscore%/%original_path%/%original_file_name%
