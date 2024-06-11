@@ -1,0 +1,40 @@
+name: Auto Merge i10n File
+on:
+  schedule:
+    - cron: "00 00 * * *"
+  workflow_dispatch:
+
+jobs:
+  merge_weekly_branch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Git
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+
+      - name: Create and merge PR
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }} # Personal Access Token
+        run: |
+          # Construct the branch name
+          branch_name="l10n_main"
+          # Fetch the branch to ensure it exists locally
+          git fetch origin ${branch_name}
+
+          # Check if the branch exists
+          if [[ -n "$(git ls-remote origin $branch_name)" ]]; then
+            git checkout ${branch_name}
+            # Create a pull request using GitHub CLI
+            gh pr create --base main --head $branch_name --title "Auto Merge i10n" --body "Merge i10n."
+
+            # Wait for a few seconds to allow GitHub to process the PR creation
+            sleep 15
+            # Merge the pull request using GitHub CLI
+            gh pr merge --squash
+          else
+            echo "i10n branch '${branch_name}' does not exist."
