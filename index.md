@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /just-start
+      link: /guide/quick
     - theme: alt
       text: 致谢
-      link: /thanks
+      link: /guide/thanks
 
 features:
   - title: Feature A
