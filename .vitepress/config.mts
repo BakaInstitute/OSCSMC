@@ -27,14 +27,15 @@ export default defineConfig({
   },
   locales: {
     root: {
-      label: 'English (US)',
-      lang: 'en_US',
-    },
-    zh_CN: {
       label: '中文(简体)',
       lang: 'zh_CN',
-      link: '/zh_CN/',
     },
+    en_US: {
+      label: 'English (US)',
+      lang: 'en_US',
+      link: '/en_US/',
+    },
+
     zh_TW: {
       label: '中文(繁體)',
       lang: 'zh_TW',
