@@ -2,14 +2,14 @@
 layout: home
 hero:
   name: OSCSMC
-  text: 玩家快速入门指南
-  tagline: Minecraft 一站式社区解决方案
+  text: Quick Start Guide for Players
+  tagline: Minecraft's all-in-one community solution
   actions:
     - theme: brand
-      text: 开始
+      text: Begin
       link: /guide/quick
     - theme: alt
-      text: 致谢
+      text: Thanks
       link: /guide/thanks
 features:
   - title: Feature A
