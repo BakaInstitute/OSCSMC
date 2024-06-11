@@ -1,5 +1,5 @@
 files:
-  - source: /**/**.md
+  - source: /guide/zh_CN/**.md
     ignore:
       - .gitignore
       - package.json

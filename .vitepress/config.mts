@@ -28,18 +28,18 @@ export default defineConfig({
   locales: {
     root: {
       label: '中文(简体)',
-      lang: 'zh_CN',
+      lang: '/guide/zh_CN/',
     },
     en_US: {
       label: 'English (US)',
       lang: 'en_US',
-      link: '/en_US/',
+      link: '/guide/en_US/',
     },
 
     zh_TW: {
       label: '中文(繁體)',
       lang: 'zh_TW',
-      link: '/zh_TW/',
+      link: '/guide/zh_TW/',
     },
   },
 })
