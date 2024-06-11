@@ -6,4 +6,4 @@ files:
       - /.vitepress/
       - README.md
       - README_en.md
-    translation: /guide/%locale_with_underscore%/%original_path%/%original_file_name%
+    translation: /guide/%locale_with_underscore%/%original_file_name%
