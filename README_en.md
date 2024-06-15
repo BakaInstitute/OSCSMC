@@ -2,7 +2,7 @@
 
 **We Also Provide [Chinese Version](https://github.com/BakaInstitute/OSCSMC/blob/main/README.md)**
 
-[Minecraft One-Stop Community Solution] (https://oscsmc.baka.ac.cn), your must-have tool on the way to Minecraft.
+[Minecraft One-Stop Community Solution](https://oscsmc.baka.ac.cn), your must-have tool on the way to Minecraft.
 
 ## About the project
 
@@ -13,7 +13,7 @@ Launched on 6/15/2024, this project was originally intended to consolidate scatt
 ### Project Architecture
 
 - [Vitepress](https://vitepress.dev/) Driver to build static web pages
-- [CloudFlare] (https://www.cloudflare.com/) provides static website deployment services
+- [CloudFlare](https://www.cloudflare.com/) provides static website deployment services
 
 ### Precautions
 
