@@ -1,6 +1,6 @@
 # Minecraft 一站式社区解决方案
 
-**We Also Provide [English Version]**
+**We Also Provide [English Version](https://github.com/BakaInstitute/OSCSMC/blob/main/README_en.md)**
 
 [Minecraft 一站式社区解决方案](https://oscsmc.baka.ac.cn)，你游玩 Minecraft 途中的必备工具。
 
@@ -40,13 +40,9 @@
 
 ## TODO
 
-### 入门 Minecraft
-
 - [ ] 收集常见的 Minecraft 启动器
 - [ ] 做出一套 Minecraft 启动器评分系统
 - [ ] 针对所有启动器进行评级
 
 - [ ] 收录常见的 Mod Loaders
 - [ ] 收录常见的 Minecraft 资源网站
-
-### 深入 Minecraft
