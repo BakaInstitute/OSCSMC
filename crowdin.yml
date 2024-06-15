@@ -1,9 +1,0 @@
-files:
-  - source: /guide/zh_CN/**.md
-    ignore:
-      - .gitignore
-      - package.json
-      - /.vitepress/
-      - README.md
-      - README_en.md
-    translation: /guide/%locale_with_underscore%/%original_file_name%
