@@ -18,11 +18,14 @@ hero:
       link: /thanks/
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 全面
+    icon: 🌐
+    details: 得益于贡献者的支持，我们足以收集大量信息
+  - title: 便捷
+    icon: ⚡️
+    details: 清晰而一目了然的目录，寻找资源从此变得不在困难
+  - title: 快速
+    icon: 🚀
+    details: 基于 VitePress 构建，只为了最快的访问速度
 ---
 
