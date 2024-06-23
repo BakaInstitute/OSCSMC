@@ -34,7 +34,7 @@ In principle, English words need to be capitalized, and in some cases, they need
 
 When it comes to paths, add spaces before and after the paths.
 
-Example: 'Path D:/PCL/.minecraft/mods is where the mods are kept'
+Example: `Path D:/PCL/.minecraft/mods is where the mods are kept`
 
 When it comes to any off-site links, prioritize adding official links and try to avoid unnecessary third-party links.
 
@@ -44,5 +44,5 @@ When it comes to any off-site links, prioritize adding official links and try to
 - [ ] Make a Minecraft Launcher scoring system
 - [ ] Rating for all launchers
 
-- [ ] Includes common mod loaders
-- [ ] Includes common Minecraft resource sites
+- [ ] Collect common mod loaders
+- [ ] Collect common Minecraft resource sites
