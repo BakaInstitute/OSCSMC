@@ -11,7 +11,7 @@ export const en = defineConfig({
       { text: 'Get Started', link: '/en/guide/' },
       { text: 'Launcher List', link: '/en/launchers/' },
       { text: 'Contribution Guidelines', link: '/en/contribute/contributing' },
-      { text: 'AFDian', link: 'https://afdian.net/a/BakaInstitute' }
+      { text: 'AFDian', link: 'https://afdian.net/a/BakaInfinityHub' }
     ],
 
     sidebar: [

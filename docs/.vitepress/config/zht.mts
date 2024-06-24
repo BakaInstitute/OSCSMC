@@ -11,7 +11,7 @@ export const zht = defineConfig({
       { text: '即時開始', link: '/zht/guide/' },
       { text: '啟動器列表', link: '/zht/launchers/' },
       { text: '貢獻指南', link: '/zht/contribute/contributing' },
-      { text: '愛發電', link: 'https://afdian.net/a/BakaInstitute' }
+      { text: '愛發電', link: 'https://afdian.net/a/BakaInfinityHub' }
     ],
 
     sidebar: [

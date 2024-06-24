@@ -11,7 +11,7 @@ export const zhs = defineConfig({
       { text: '即刻开始', link: '/guide/' },
       { text: '启动器列表', link: '/launchers/' },
       { text: '贡献指南', link: '/contribute/contributing' },
-      { text: '爱发电', link: 'https://afdian.net/a/BakaInstitute' }
+      { text: '爱发电', link: 'https://afdian.net/a/BakaInfinityHub' }
     ],
 
     sidebar: [
