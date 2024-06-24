@@ -19,7 +19,6 @@ export const zhs = defineConfig({
         text: '初入 Minecraft',
         items: [
           { text: '简单介绍', link: '/guide/' },
-          { text: '我都需要什么', link: '/guide/what-i-needed' },
         ]
       },
       {
