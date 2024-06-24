@@ -13,9 +13,6 @@ hero:
     - theme: alt
       text: 启动器列表
       link: /launchers/
-    - theme: alt
-      text: 鸣谢
-      link: /thanks/
 
 features:
   - title: 全面

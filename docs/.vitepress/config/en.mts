@@ -7,29 +7,36 @@ export const en = defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '主页', link: '/en/' },
-      { text: '即刻开始', link: '/en/guide/' },
-      { text: '启动器列表', link: '/en/launchers/' },
-      { text: '鸣谢', link: '/en/thanks/' }
+      { text: 'Home', link: '/en/' },
+      { text: 'Get Started', link: '/en/guide/' },
+      { text: 'Launcher List', link: '/en/launchers/' },
+      { text: 'Contribution Guidelines', link: '/en/contribute/contributing' },
+      { text: 'AFDian', link: 'https://afdian.net/a/BakaInstitute' }
     ],
 
     sidebar: [
       {
-        text: '初入 Minecraft',
+        text: 'Getting started with Minecraft',
         items: [
-          { text: '简单介绍', link: '/en/guide/' },
-          { text: '我都需要什么', link: '/en/guide/what-i-needed' },
+          { text: 'Brief introduction', link: '/en/guide/' },
         ]
       },
       {
-        text: '启动器集合',
+        text: 'Launcher List',
         items: [
-          { text: '有什么启动器', link: '/en/launchers/' },
+          { text: 'What launcher is there?', link: '/en/launchers/' },
           { text: 'Minecraft Launcher', link: '/en/launchers/minecraft-launcher' },
+          { text: 'PCL (Plain Craft Launcher)', link: '/en/launchers/plain-craft-launcher' },
+          { text: 'HMCL (Hello Minecraft! Launcher)', link: '/en/launchers/hello-minecraft-launcher' },
+          { text: 'BakaXL', link: '/en/launchers/bakaxl' },
+          { text: 'MultiMC', link: '/en/launchers/multimc' },
+          { text: 'Prism Launcher', link: '/en/launchers/prism-launcher' },
+          { text: 'PolyMC', link: '/en/launchers/polymc' },
+          { text: 'GDLauncher', link: '/en/launchers/gdlauncher' },
         ]
       },
       {
-        text: '资源网站',
+        text: 'Resource Website',
         items: [
           { text: '我上哪找资源', link: '/en/addons/' },
         ]
